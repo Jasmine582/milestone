@@ -1,0 +1,216 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'blue-eyes';
+    src: url('../fonts/blue-eyes.otf');
+    font-style: normal;
+    font-weight: 100; 
+}
+@font-face {
+    font-family: 'autography';
+    src: url('../fonts/autography.otf');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'photograph';
+    src: url('../fonts/photograph-signature.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'summer';
+    src: url('../fonts/summer-garden.otf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'typewriter';
+    src: url('../fonts/typewriter.woff');
+    font-style: normal;
+}
+
+/*GRID*/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;  
+}
+
+/*HEADER*/
+
+header {
+    height: auto;
+    background: url('../img/flower.jpg');
+    background-size: 2500px;
+    background-repeat: no-repeat;
+}
+header h1 {
+    font-family: 'blue-eyes';
+    font-size: 45px; 
+    font-weight: normal;
+    text-transform: capitalize;
+    padding-top: 15px;
+    color:#F3D1F0;
+}
+nav {
+    font-family: 'blue-eyes';
+    float: right;
+    padding-top: 52px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 35px;
+    color: #F3D1F0;
+    padding-left: 25px;
+    margin-bottom: 92em; 
+}
+.top-section {
+   height: 700px;
+   background: url('../img/hero.jpg');
+   background-size: cover;
+   background-position: center;
+   overflow: auto;
+}
+.top-section h2 {
+    font-size: 75px;
+    line-height: 85px;
+    text-transform: capitalize;
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 515px;
+    color:	white;
+}
+.top-section h2 span{
+    font-family: 'photograph';
+    font-size: 3em;
+    color: #F3D1F0;
+    line-height: 195px;
+    padding-right: 12px;
+}
+
+/*PORTFOLIO*/
+
+#portfolio {
+    background-color: #ebe0e7;
+    text-align: center;
+}
+#portfolio a {
+    padding-bottom:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#portfolio h2 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'blue-eyes';
+    margin: 12px;
+}
+#portfolio h4 {
+   font-size: 25px;
+   font-family: 'blue-eyes';
+   color:#A1929B;
+   padding: 1px;
+}
+#portfolio p {
+    font-family: 'typewriter';
+    font-size: 20px;
+    color: #AB879D;
+    text-align: center;
+    margin-bottom:45px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*ABOUT*/
+
+#about {
+    background: url('../img/flower.jpg');
+    background-size: 4500px;
+    color: white;
+    text-align: center;
+}
+#about img {
+    background-color: #ebe0e7;
+    border: 1px inset ivory; 
+    border-radius: 20px;
+    padding-left:1px ;
+}
+#about h2 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'blue-eyes';
+    margin: 12px;
+}
+#about p {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'typewriter';  
+}
+#about p span {
+    color: #F3D1F0;
+}
+
+/*CONTACT*/
+
+#contact {
+    background-color: #ebe0e7;
+}
+#contact h2{
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'blue-eyes';
+    margin: 12px;
+    text-align: center;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+.email-header {
+    font-size: 45px;
+    line-height: 44px;
+    margin: 30px 0 5px 0;
+    font-family: 'summer';
+    color: #AB879D;
+    text-align:inherit;
+}
+#envelope {
+    padding: 10px 10px 0 115px;
+}
+#desk {
+    border: 12px solid white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/*FOOTER*/
+
+footer {
+    background: url('../img/flower.jpg');
+    color: white;
+    text-align: center;
+    background-position: center;
+    font-family:'autography';
+    font-size: 26px;
+    height: 75px;
+    padding: 35px;
+}
