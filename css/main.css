@@ -216,12 +216,12 @@ footer {
 }
 
 /*TABLET*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   
   
 }
 
 /*DESKTOP*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     
 }
